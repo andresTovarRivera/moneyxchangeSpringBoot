@@ -6,6 +6,15 @@ public class Currency {
     private String currencySymbol;
     private double exchangeRate;
     private double amount;
+
+    public double getDollarAmount() {
+        return dollarAmount;
+    }
+
+    public void setDollarAmount(double dollarAmount) {
+        this.dollarAmount = dollarAmount;
+    }
+    private double dollarAmount;
     
     public String getCurrencyName() {
         return currencyName;
